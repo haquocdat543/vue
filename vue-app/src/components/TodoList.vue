@@ -9,7 +9,33 @@ export default {
   name: 'TodoList',
   components: {TodoItem},
   setup () {
-    const todos = ref(['member 1','member 2','member 3','member 4'])
+    const todos = ref([
+    {
+    id: 1,
+    title: 'member 1',
+    completed: false
+    },
+    {
+    id: 2,
+    title: 'member 2',
+    completed: false
+    },
+    {
+    id: 3,
+    title: 'member 3',
+    completed: false
+    },
+    {
+    id: 4,
+    title: 'member 4',
+    completed: false
+    },
+    {
+    id: 5,
+    title: 'member 5',
+    completed: false
+    }
+    ])
 
   return {
   todos
