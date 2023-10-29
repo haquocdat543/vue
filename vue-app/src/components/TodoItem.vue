@@ -1,5 +1,9 @@
 <template>
-	<p>{{ todoProps }}</p>  
+	<p>
+	<input type="checkbox" />
+	{{ todoProps }}
+	<button class="delete-button">Delete</button>
+	</p>  
 </template>
 
 <script>
