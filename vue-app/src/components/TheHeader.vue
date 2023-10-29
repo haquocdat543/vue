@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1>Thing to do</h1>
+    <h1>Family member</h1>
   </header>
 </template>
 
