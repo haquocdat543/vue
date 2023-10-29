@@ -23,7 +23,7 @@ export default {
     {
     id: 3,
     title: 'member 3',
-    completed: false
+    completed: true
     },
     {
     id: 4,
