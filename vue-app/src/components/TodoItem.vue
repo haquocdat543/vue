@@ -22,6 +22,10 @@ export default {
 	border-bottom: 1px #ccc dotted;
 }
 
+.is-completed { 
+	text-decoration: line-through;
+}
+
 .delete-button { 
 	background: #ff0000;
 	color: #fff;
