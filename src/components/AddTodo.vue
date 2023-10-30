@@ -48,6 +48,13 @@ input[type='text'] {
 }
 
 input[type='submit'] {
-  flex: 2;
+	width: 64px;
+	height: 28px;
+	border: none;
+	background-color: #2a913d;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 6px;
 }
 </style>
