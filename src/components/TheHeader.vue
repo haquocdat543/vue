@@ -13,7 +13,7 @@ export default {
 <style scoped>
 .header {
   border-radius: 10px;
-  background: #333;
+  background: var(--navbar-color);
   color: #fff;
   text-align: center;
   padding: 10px;
