@@ -35,6 +35,7 @@ export default {
 	padding: 10px;
 	margin: 0;
 	border-bottom: 1px #ccc dotted;
+	color: white;
 }
 
 .is-completed { 

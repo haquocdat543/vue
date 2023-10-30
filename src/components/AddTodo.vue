@@ -53,6 +53,7 @@ input[type='text'] {
 	border: solid 1px var(--line-color);
 	border-radius: 4px;
 	flex: 10;
+	color: white;
 }
 
 input[type='submit'] {
