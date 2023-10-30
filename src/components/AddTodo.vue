@@ -52,6 +52,7 @@ input[type='text'] {
 	font-weight: bold;
 	border: solid 1px var(--line-color);
 	border-radius: 4px;
+	flex: 10;
 }
 
 input[type='submit'] {
@@ -63,5 +64,6 @@ input[type='submit'] {
 	font-size: 14px;
 	font-weight: bold;
 	border-radius: 6px;
+	flex: 2;
 }
 </style>
