@@ -12,6 +12,7 @@ export default {
 
 <style scoped>
 .header {
+  border-radius: 10px;
   background: #333;
   color: #fff;
   text-align: center;
