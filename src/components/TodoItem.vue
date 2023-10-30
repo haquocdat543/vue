@@ -54,5 +54,9 @@ export default {
 	cursor: pointer;
 	float: right;
 }
+
+.delete-button:hover { 
+	background-color: #2ea043;
+}
 </style>
 
