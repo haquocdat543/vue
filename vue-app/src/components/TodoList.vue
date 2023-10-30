@@ -1,7 +1,6 @@
 <template>
 	<TodoItem v-for="todo in todos"
-       	v-bind:key="todo"
-       	:todoProps="todo"
+       	:key="todo.id"
        	:todoProps="todo"
        	@item-completed="markCompleted"
        	@delete-item="deleteTodo"
