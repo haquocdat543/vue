@@ -1,5 +1,5 @@
 <template>
-	<p :class="['todoItem',todoProps.completed ? 'is-completed' : ' ']">
+	<p id="paragraph" :class="['todoItem',todoProps.completed ? 'is-completed' : ' ']">
 	<input type="checkbox" 
 	:checked="todoProps.completed"
 	@change="markItemCompleted"
@@ -58,6 +58,9 @@ export default {
 
 .delete-button:hover { 
 	background-color: #2ea043;
+}
+#paragraph { 
+	color: white;	
 }
 </style>
 
