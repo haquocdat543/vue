@@ -43,8 +43,15 @@ form {
 }
 
 input[type='text'] {
-  flex: 10;
-  padding: 5px;
+	width: 260px;
+	height: 34px;
+	background-color: var(--input-color);
+	margin-left: 10px;
+	font-size: 14px;
+	padding-left: 10px;
+	font-weight: bold;
+	border: solid 1px var(--line-color);
+	border-radius: 4px;
 }
 
 input[type='submit'] {
