@@ -1,6 +1,9 @@
 <template>
 	<p :class="['todoItem',todoProps.completed ? 'is-completed' : ' ']">
-	<input type="checkbox" :checked="todoProps.completed"/>
+	<input type="checkbox" 
+	:checked="todoProps.completed"
+	@change="markItemCompleted"
+	/>
 	{{ todoProps.title }}
 	<button class="delete-button" @click="deleteItem" >Delete</button>
 	</p>  
