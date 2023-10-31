@@ -35,6 +35,16 @@ export default {
 </script>
 
 <style>
-
+.navBar { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--first-color);
+	color: white;
+	height: 60px;
+	padding: 2px 28px;
+	position: sticky;
+	top: 0;
+}
 </style>
 
