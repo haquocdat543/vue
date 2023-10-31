@@ -1,15 +1,14 @@
 <template>
-	<div class="header">
-		<h1>Hello World</h1>
-	</div>  
 	<NavBar />
+	<Main />
 </template>
 
 <script>
 import NavBar from "./components/NavBar";
+import NavBar from "./components/Main";
 export default {
   name: 'App',
-  components: {NavBar},
+  components: {NavBar, Main},
 }
 </script>
 
