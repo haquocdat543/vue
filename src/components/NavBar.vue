@@ -55,17 +55,18 @@ export default {
 		/* width: 10px; */
 		/* object-fit: contain; */
 	/* } */
-	input {
-		width: 260px;
-		height: 34px;
-		background-color: var(--input-color);
-		margin-left: 10px;
-		font-size: 14px;
-		padding-left: 10px;
-		font-weight: bold;
-		border: 1px solid var(--line-color);
-		border-radius: 4px;
-	}
+}
+input {
+	width: 260px;
+	height: 34px;
+	background-color: var(--first-color);
+	/* background-color: var(--input-color); */
+	margin-left: 10px;
+	font-size: 14px;
+	padding-left: 10px;
+	font-weight: bold;
+	border: 1px solid var(--line-color);
+	border-radius: 4px;
 }
 </style>
 
