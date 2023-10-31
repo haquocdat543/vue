@@ -25,7 +25,7 @@ export default {
   --input-color: #0d1117;
   --border-color: #30363d;
   --blue-text-color: #58a6ff;
-  background-color: var(--first-color);
+/*  background-color: var(--first-color); */
 }
 .header { 
 	color: white;

@@ -1,10 +1,13 @@
 <template>
-{ /* Left */ }
+/* Left */
 <div>
 	<img src="../images/img1.png" alt="">
+	<div>
+		<input type="text" placeholder="Search or jump to">
+	</div>
 </div>
-{ /* Center */ }
-{ /* Right */ }
+/* Center */
+/* Right */
 </template>
 
 <script>
