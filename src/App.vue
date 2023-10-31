@@ -2,6 +2,7 @@
 	<div class="header">
 		<h1>Hello World</h1>
 	</div>  
+	<NavBar />
 </template>
 
 <script>
