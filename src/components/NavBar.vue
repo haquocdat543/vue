@@ -2,7 +2,6 @@
 <nav class="navBar">
 /* Left */
 <div class="navLeft">
-	<img src="../images/img1.png" alt="">
 	<div>
 		<input type="text" placeholder="Search or jump to">
 	</div>
@@ -45,6 +44,17 @@ export default {
 	padding: 2px 28px;
 	position: sticky;
 	top: 0;
+}
+
+.navLeft { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	/* img { */
+		/* width: 10px; */
+		/* object-fit: contain; */
+	/* } */
 }
 </style>
 
