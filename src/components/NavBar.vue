@@ -14,6 +14,9 @@
 	<h2>Explore</h2>
 </div>
 /* Right */
+<div>
+	<h2>Bell</h2>
+</div>
 </template>
 
 <script>
