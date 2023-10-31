@@ -84,5 +84,11 @@ h2 {
 	font-size: 14px;
 	font-weight: bold;
 }
+.navRight { 
+	display: flex;
+	align-items: center;
+	width: 110px;
+	justify-content: space-between;
+}
 </style>
 
