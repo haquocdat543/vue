@@ -1,5 +1,7 @@
 <template>
-  
+	<div class="header">
+		<h1>Hello World</h1>
+	</div>  
 </template>
 
 <script>
@@ -22,6 +24,9 @@ export default {
   --border-color: #30363d;
   --blue-text-color: #58a6ff;
   background-color: var(--first-color);
+}
+.header { 
+	color: white;
 }
 </style>
 
