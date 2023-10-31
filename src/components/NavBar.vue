@@ -90,5 +90,10 @@ h2 {
 	width: 110px;
 	justify-content: space-between;
 }
+.navRightIcons { 
+	display: flex;
+	align-items: center;
+	gap: 18px;
+}
 </style>
 
