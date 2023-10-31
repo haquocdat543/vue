@@ -30,7 +30,7 @@
 			<div class="line"/>
 			<div class="recentRepo">
 				<div class="recentRepos">
-					<h2>Recent repos</h2>
+					<h2>Your teams</h2>
 				</div>
 				<div class="inputBoxTwo">
 					<input type="text" placeholder="Find a team...">

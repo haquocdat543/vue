@@ -7,7 +7,7 @@
 
 <script>
 import MainLeft from './MainLeft.vue'
-import HelloWorld from './MainRight.vue'
+import MainRight from './MainRight.vue'
 
 export default {
   name: 'Main',
