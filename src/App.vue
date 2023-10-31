@@ -5,7 +5,7 @@
 
 <script>
 import NavBar from "./components/NavBar";
-import NavBar from "./components/Main";
+import Main from "./components/Main";
 export default {
   name: 'App',
   components: {NavBar, Main},
