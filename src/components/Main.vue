@@ -1,6 +1,8 @@
 <template>
+	<main>
 	<MainLeft/>  
 	<MainRight/>  
+	</main>
 </template>
 
 <script>
