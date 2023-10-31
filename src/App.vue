@@ -30,6 +30,6 @@ export default {
   --input-color: #0d1117;
   --border-color: #30363d;
   --blue-text--color: #58a6ff;
-  background: var(--navbar-color);
+  background: var(--first-color);
 }
 </style>
