@@ -1,19 +1,19 @@
 <template>
 <nav class="navBar">
-/* Left */
+
 <div class="navLeft">
 	<div>
 		<input type="text" placeholder="Search or jump to">
 	</div>
 </div>
-/* Center */
+
 <div class="navCenter">
 	<h2>Pulls</h2>
 	<h2>Issues</h2>
 	<h2>Marketplace</h2>
 	<h2>Explore</h2>
 </div>
-/* Right */
+
 <div>
 	<h2>Bell</h2>
 	<div class="navRightIcons">
@@ -71,6 +71,18 @@ input {
 input:focus {
 	width: 400px;
 	transition: width case-out 0.3s;
+}
+.navCenter { 
+	flex: 1;
+	display: flex;
+	gap: 18px;
+	margin-left: 18px;
+	align-items: center;
+	color: white;
+}
+h2 {
+	font-size: 14px;
+	font-weight: bold;
 }
 </style>
 
