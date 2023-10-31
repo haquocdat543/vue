@@ -1,4 +1,7 @@
 <template>
+{ /* Left */ }
+{ /* Center */ }
+{ /* Right */ }
 </template>
 
 <script>
