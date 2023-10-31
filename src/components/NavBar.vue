@@ -68,5 +68,9 @@ input {
 	border: 1px solid var(--line-color);
 	border-radius: 4px;
 }
+input:focus {
+	width: 400px;
+	transition: width case-out 0.3s;
+}
 </style>
 
