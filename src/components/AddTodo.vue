@@ -58,7 +58,7 @@ input[type='text'] {
 
 input[type='submit'] {
 	width: 64px;
-	height: 28px;
+	height: 34px;
 	border: none;
 	background-color: #2a913d;
 	color: white;
